@@ -1,0 +1,9 @@
+{
+  "name": "showcase-gallery",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix client run dev",
+    "server:dev": "npm --prefix server run dev",
+    "build": "npm --prefix client run build"
+  }
+}

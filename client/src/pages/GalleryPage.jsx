@@ -13,7 +13,7 @@ via-violet-600 to-cyan-500 p-10 text-white shadow-xl md:p-14"
                 <p className="text-sm font-semibold uppercase tracking-[0.3em] text-white/70">Product Gallery</p>
                 <h2 className="mt-3 text-4xl font-bold md:text-5xl">Discover Our Products</h2>
                 <p className="mt-3 text-white/80">
-                    {products.length} items available . by [baste]
+                    {products.length} {products.length === 1 ? "product" : "products"} available · curated by Sebastian
                 </p>
             </section>
 
